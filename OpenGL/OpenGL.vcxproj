@@ -153,6 +153,9 @@
   <ItemGroup>
     <ClInclude Include="include\learnopengl\Shader_s.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\container.jpg" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

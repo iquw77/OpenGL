@@ -16,6 +16,9 @@
     <Filter Include="Shaders">
       <UniqueIdentifier>{b2816f9f-0cda-41e2-bff9-ace3e6d50578}</UniqueIdentifier>
     </Filter>
+    <Filter Include="img">
+      <UniqueIdentifier>{6c1362b5-d690-4dca-b15e-8a0014f574b9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -37,5 +40,10 @@
     <ClInclude Include="include\learnopengl\Shader_s.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\container.jpg">
+      <Filter>img</Filter>
+    </Image>
   </ItemGroup>
 </Project>
