@@ -29,15 +29,24 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="shaders\shader.fs">
+    <None Include="shaders\light_cube.fs">
       <Filter>Shaders</Filter>
     </None>
-    <None Include="shaders\shader.vs">
+    <None Include="shaders\light_cube.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\colors.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\colors.vs">
       <Filter>Shaders</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\learnopengl\Shader_s.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="include\learnopengl\camera.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

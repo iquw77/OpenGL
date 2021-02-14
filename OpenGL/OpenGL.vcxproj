@@ -147,10 +147,13 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="shaders\shader.fs" />
-    <None Include="shaders\shader.vs" />
+    <None Include="shaders\colors.fs" />
+    <None Include="shaders\colors.vs" />
+    <None Include="shaders\light_cube.fs" />
+    <None Include="shaders\light_cube.vs" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\learnopengl\camera.h" />
     <ClInclude Include="include\learnopengl\Shader_s.h" />
   </ItemGroup>
   <ItemGroup>
